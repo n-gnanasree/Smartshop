@@ -1,0 +1,96 @@
+/* CART PAGE */
+
+.cart-container {
+  padding: 40px;
+  text-align: center;
+  background: #f5f7fa;
+  min-height: 100vh;
+}
+
+.cart-container h2 {
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+/* Cart Card */
+
+.cart-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background: #fff;
+  padding: 20px;
+  margin: 15px auto;
+  width: 60%;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.cart-card:hover {
+  transform: scale(1.02);
+}
+
+.cart-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Quantity Buttons */
+
+.qty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.qty button {
+  padding: 5px 12px;
+  font-size: 18px;
+  border: none;
+  background: #27ae60;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.qty button:hover {
+  background: #1e8449;
+}
+
+/* Remove Button */
+
+.remove {
+  background: #e74c3c;
+  border: none;
+  padding: 8px 15px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.remove:hover {
+  background: #c0392b;
+}
+
+/* Payment Button */
+
+.pay-btn {
+  margin-top: 30px;
+  padding: 12px 25px;
+  font-size: 18px;
+  background: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.pay-btn:hover {
+  background: #1f618d;
+}

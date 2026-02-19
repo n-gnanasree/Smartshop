@@ -1,0 +1,71 @@
+/* PAYMENT PAGE */
+
+.payment-container {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(to right, #dfe9f3, #ffffff);
+  min-height: 100vh;
+}
+
+.payment-container h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.payment-container h3 {
+  margin-bottom: 25px;
+  color: #27ae60;
+}
+
+/* Payment Methods */
+
+.methods {
+  margin-bottom: 20px;
+}
+
+.methods button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  background: #34495e;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.methods button:hover {
+  background: #2c3e50;
+}
+
+/* Form */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Pay Button */
+
+.pay-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 18px;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.pay-btn:hover {
+  background: #1e8449;
+}
